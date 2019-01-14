@@ -1,0 +1,35 @@
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border : 1px solid black
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  margin-top: -22px;
+  color:black;
+  font-size: 18px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.text {
+  color:black;
+  /* position: absolute; */
+  bottom: 80px;
+  width: 100%;
+  font-size: 163px;
+}
+
+

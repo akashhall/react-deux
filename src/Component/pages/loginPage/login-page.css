@@ -1,0 +1,27 @@
+.main-div {
+    width: 1000px;
+    height: 366px;
+    background-image: url("https://content3.jdmagicbox.com/comp/agra/l5/0562px562.x562.110621145527.w4l5/catalog/shaadi-centre-agra-matrimonial-bureaus-upryx.jpg?interpolation=lanczos-none&output-format=jpg&resize=1024:370&crop=1024:370px;*,*");
+}
+.login-page {
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 80px;
+    border: 2px solid black;
+}
+
+.input-class {
+    margin: 3px;
+    font-size: 20px
+}
+.login-button {
+    width: 50%;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.error-message {
+    color: red;
+    font-size: 20px;
+    margin-top: 100px
+}
