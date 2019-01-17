@@ -1,16 +1,17 @@
 import React, { Component } from "react";
-import Home from './Home';
 import '../styles/App.css';
 
-class App extends Component {
+class Login extends Component {
+  constructor () {
+    super () ;
+  }
     render() {
         return (
             <div>
-                <h1>My React App!</h1>
-                <Home />  
+                <h1>Login</h1>
             </div>
         );
     }
 }
 
-export default App;
+export default Login;
