@@ -1,0 +1,18 @@
+
+
+.compareContainerCell {
+    width: 275px
+}
+.compareContainer {
+    display: flex;
+}
+.medicalFeature span {
+    font-size: 18px;
+}
+.travelFeature span {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.compareContainerCell {
+    border: 1px solid
+}

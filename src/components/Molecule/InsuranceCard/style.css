@@ -1,0 +1,18 @@
+.insuraceCard span {
+  display: block   
+}
+.linkClass {
+  color: black;
+  font-size: 14px;
+}
+.imageWidth {
+  width : 100%;
+  height: 180px;
+}
+.insuraceCardHighlight {
+  border: 2px solid red;
+  margin: 4px
+}
+.insuraceCardHighlight span {
+  display: block   
+}

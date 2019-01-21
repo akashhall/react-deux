@@ -1,0 +1,27 @@
+.pdpContainer {
+    margin-top: 60px;
+    position: relative;
+    margin-left: 50px;
+}
+.pdpContainerCell {
+    width: 275px;
+    border: 1px solid
+}
+.container .floatLeft { 
+    width: 47%; 
+    float: left; 
+}
+.container .floatRight {
+    width: 47%; 
+    float: right;
+}
+.floatRight > span {
+    font-size: 18px;
+}
+.floatLeft > span {
+    font-size: 18px;
+}
+.container { 
+    width: 90%; 
+    overflow: hidden; 
+}

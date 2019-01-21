@@ -1,0 +1,13 @@
+
+.featureBlock span {
+padding:  5px    
+}
+table {
+    border-collapse: collapse;
+  } 
+  td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+  }
+  
