@@ -3,6 +3,7 @@ import React from 'react';
 import Image from './../../Atoms/image';
 import Link from './../../Atoms/link';
 import Checkbox from './../../Atoms/checkbox';
+import Button from './../../Atoms/button';
 import './style.css';
 
 class InsuranceCard extends React.Component{
@@ -14,7 +15,7 @@ class InsuranceCard extends React.Component{
         }
     };
     render () {
-    const { planName, sumInsured, insuranceProviderName, premiumAmount, id,compareCheck } = this.props;
+    const { planName, sumInsured, insuranceProviderName, premiumAmount, id,compareCheck, pdp,onClick } = this.props;
     let src = '';
     /** Dynamically adding img with desired Insurance Card */
     if (insuranceProviderName === 'Reliance Health Insurance') {
@@ -36,6 +37,7 @@ class InsuranceCard extends React.Component{
     const imageSrc = `./../../../../assets/${src}.png`
     return (
         <div className= {this.state.highlightCardState ? "insuraceCardHighlight" : "insuraceCard"}>
+            {pdp && <Button value='X'onClick={()=>{onClick(id)}} />}
             <Image src={imageSrc} className="imageWidth"/>
             <span> {planName} </span>
             <span> {insuranceProviderName} </span>

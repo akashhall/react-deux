@@ -8,11 +8,11 @@ class App extends Component {
         return (
             <div>
                 <header >
-                    <h1>WElCOME TO SYMBO INSURANCE</h1>
+                    <h1></h1>
                     </header>
                 <MainRoutes/>
                 <footer>
-                    <h1>Please Visit : www.symboinsurance.com</h1>
+                    <h1></h1>
                     </footer>
             </div>
         );

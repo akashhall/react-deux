@@ -21,17 +21,23 @@ class PDPPage extends React.Component {
         const productData = this.props.getProductData(this.props.location.state)
         this.setState({ productData: productData.payload })
     }
+    getId = (id) => {
+        console.log(id)
+    }
     render() {
         /** In Return Calling Insusrance Card for basic information and Features for Medical and Travel Features
          *  Doing this for for sorting it in correct Id order: = MedicalFeatures.sort((a,b) => {return +a.benefitId.slice(4) - +b.benefitId.slice(4)})
          */
         return (
             <React.Fragment>
+                {console.log(this.state.productData)}
                 <div className="pdpContainer">
                     {this.state.productData && <div><div className="pdpContainerCell"><InsuranceCard planName={this.state.productData.plan.planName}
                         sumInsured={this.state.productData.sumInsured}
                         insuranceProviderName={this.state.productData.plan.insuranceProviderName}
                         premiumAmount={this.state.productData.totalAmount.amount}
+                        onClick={() => {this.getId(this.state.productData.plan.id)}}
+                        pdp={true}
                     /></div>
                         <br />
                         <div className="container">
