@@ -8,7 +8,7 @@ class App extends Component {
         return (
             <div>
                 <header >
-                    <h1></h1>
+                    <h1>Hello</h1>
                     </header>
                 <MainRoutes/>
                 <footer>
