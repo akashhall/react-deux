@@ -43,7 +43,7 @@ class InsuranceCard extends React.Component{
             <span> {insuranceProviderName} </span>
             <span> Sum Insured : {sumInsured} </span>
             <span> Premium : {premiumAmount} </span>
-            { id && <Link className="linkClass" href='PDP' value="SEE DETAILS" id={id} />}
+            { id && <Link className="linkClass" href='pdp' value="SEE DETAILS" id={id} />}
             {compareCheck && <Checkbox onClick={()=> highlightCard(id)} />}
         </div>
     )

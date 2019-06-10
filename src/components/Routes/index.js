@@ -24,7 +24,8 @@ const MainRoutes = () => (
   <>
     <Switch>
       <Route exact path='/' component={BrowsePage}/>
-      <Route path='/PDP' component={PDP}/>
+      <Route path='/pdp' component={PDP} exact={true}/>
+      <Route path='/pdp/:subroute' component={BrowsePage} />
       <Route path='/Compare' component={ComparePage}/>
     </Switch>
   </>
